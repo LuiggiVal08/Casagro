@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+    @apply scrollbar
+}
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-text-tertiary) transparent;
+}
+.errorInput {
+    @apply !border-red-700
+}
+.mask-image__radial-gradient{
+    mask-image: radial-gradient(#fff 50%, transparent );
+}
